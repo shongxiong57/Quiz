@@ -5,6 +5,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/ham" >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
@@ -41,15 +48,25 @@
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mount You Die" />
+            android:text="Mount YOGO" />
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mount You Dumb" />
+            android:text="Mount YOYO" />
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mount You Crazy" />
+            android:text="Mount YOLO" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What language is this app programmed in?" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write answer in here." />
 
         <TextView
             android:layout_width="match_parent"
@@ -59,22 +76,8 @@
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="STOP" />
-
-        <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="STOP" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Are you sure you want to take this quiz?" />
-
-        <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="STOP" />
+            android:hint="STOP"
+            />
 
         <CheckBox
             android:layout_width="match_parent"
@@ -82,6 +85,8 @@
             android:hint="STOP" />
 
     </LinearLayout>
+</LinearLayout>
+
 
 
 </ScrollView>
